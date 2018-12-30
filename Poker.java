@@ -131,7 +131,7 @@ public class Poker {
 		else if ((score1 > score)&&(score1 > score2) &&(score1 > score3)&&(score1 > score4)&&(score > score5)){
 			counters++;
 			money2 = money2 + total;
-			System.out.println("Benito Mussolini wins !! He has $" + money2 + ". He won" + counters + " Time");
+			System.out.println("John Doe wins !! He has $" + money2 + ". He won" + counters + " Time");
 		}
 		else if ((score2 > score)&&(score2 > score1) &&(score2 > score3)&&(score2 > score4)&&(score2 > score5)){
 			counters++;
@@ -141,18 +141,18 @@ public class Poker {
 		else if ((score3 > score)&&(score3 > score1) &&(score3 > score2)&&(score3 > score4)&&(score3 > score5)){
 			counters++;
 			money4 = money4 + total;
-			System.out.println("Pablo Escobar wins !! She has $" + money4 + ". He won" + counters + " Time");
+			System.out.println("Bob Hope wins !! She has $" + money4 + ". He won" + counters + " Time");
 		}
 		else if ((score4 > score)&&(score4 > score1) &&(score4 > score2)&&(score4 > score3)&&(score4 > score5)){
 			counters++;
 			money5 = money5 + total;
-			System.out.println("Al Capone wins !! She has $" + money5 + ". He won" + counters + " Time");
+			System.out.println("Al Pachino wins !! She has $" + money5 + ". He won" + counters + " Time");
 		}
 		else if ((score5 > score)&&(score5 > score1) &&(score5 > score2)&&(score5 > score4)&&(score5 > score4)){
-			//Tells the user that Joesph Stalin won
+			//Tells the user that Joesph deKeegan won
 			counters++;
 			money6 = money6 + total;
-			System.out.println("Joesph Stalin wins!! He has $" + money6 + ". He won " + counters + " time");
+			System.out.println("Joesph deKeegan wins!! He has $" + money6 + ". He won " + counters + " time");
 		}
 		else {
 			//This tells the computer to divide up the pot evenly if none are true 
@@ -163,11 +163,11 @@ public class Poker {
 			money5 = total /6;
 			money6 = total /6;
 			System.out.println("You win $" + (total/6) + ". Now you have $" + money);
-			System.out.println("Benito Mussolini wins $" + (total/6) + ". Now he has $" + money2);
+			System.out.println("John Doe wins $" + (total/6) + ". Now he has $" + money2);
 			System.out.println("Jane Do wins $" + (total/6) + ". Now she has $" + money3);
-			System.out.println("Pablo Escobar wins $" + (total/6) + ". Now he has $" + money4);
-			System.out.println("Al Capone wins $" + (total/6) + ". Now you have $" + money5);
-			System.out.println("Joesph Stalin wins $" + (total/6) + ". Now you have $" + money6);
+			System.out.println("Bob Dope wins $" + (total/6) + ". Now he has $" + money4);
+			System.out.println("Al Pachino wins $" + (total/6) + ". Now you have $" + money5);
+			System.out.println("Joesph deKeegan wins $" + (total/6) + ". Now you have $" + money6);
 		}
 		return money;
 	}
